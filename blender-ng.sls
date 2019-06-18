@@ -1,5 +1,5 @@
 {% set PROGRAM_FILES = "%ProgramFiles%" %}
-blender:
+blender-ng:
   {% if grains['cpuarch'] == 'AMD64' %}
     {% set arch = '64' %}
   {% else %}
