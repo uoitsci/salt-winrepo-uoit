@@ -1,5 +1,5 @@
 alice3:
-  {{% if grains['cpuarch'] == 'AMD64' %}
+  {% if grains['cpuarch'] == 'AMD64' %}
     {% set arch = '-x64' %}
   {% else %}
     {% set arch = '' %}
