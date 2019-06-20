@@ -3,8 +3,8 @@ twine:
   {{ version }}:
     full_name: 'Twine {{ version }}'
     installer: https://github.com/klembot/twinejs/releases/download/{{ version }}/twine_{{ version }}_win.exe
-    uninstaller: https://github.com/klembot/twinejs/releases/download/{{ version }}/twine_{{ version }}_win.exe
-    install_flags: '/S'
+    uninstaller: '%ProgramFiles%\Twine\Uninstall Twine.exe'
+    install_flags: '/S /AllUsers'
     uninstall_flags: '/S'
     msiexec: False
     locale: en_US
