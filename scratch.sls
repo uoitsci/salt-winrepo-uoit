@@ -11,3 +11,9 @@ scratch:
     locale: en_US
     reboot: False
   {% endfor %}
+  3.29.1:
+    full_name: 'Scratch 3'
+    installer: salt://lab/dml/files/Scratch_3.29.1_Setup.exe
+    uninstaller: '%ProgramFiles%\Scratch 3\Uninstall Twine.exe'
+    install_flags: '/S /AllUsers'
+    uninstall_flags: '/S'
