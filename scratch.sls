@@ -12,7 +12,7 @@ scratch:
     reboot: False
   {% endfor %}
   3.29.1:
-    full_name: 'Scratch 3'
+    full_name: 'Scratch 3 3.29.1'
     installer: salt://lab/dml/files/Scratch_3.29.1_Setup.exe
     uninstaller: '%ProgramFiles%\Scratch 3\Uninstall Scratch 3.exe'
     install_flags: '/S /AllUsers'
