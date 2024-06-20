@@ -1,4 +1,4 @@
-wmi_exporter:
+windows_exporter:
   {% if grains['cpuarch'] == 'AMD64' %}
     {% set arch = 'amd64' %}
   {% else %}
